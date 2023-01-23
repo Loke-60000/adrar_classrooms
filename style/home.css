@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:any-link{
+    color: white;
+    text-decoration: none;
+    font-size: 5vh;
+    margin: 0% 2% 0% 2%;
+}
+
+#first_section{
+    background-color: #5584ac;
+    width: 100%;
+    height: 25vh
+}
+
+#logo{
+    height: 12vh;
+    margin: 0.5% 2% 0.25% 0.5%;
+}
+
+#search_bar{
+    position: absolute;
+    height: 8vh;
+}
+
+#search_icon{
+    height: 8vh;
+    margin-right: 2%;
+}
+
+#connection{
+    background-color: black;
+    font-size: 3vh;
+    height: 7vh;
+    width: 25vh;
+    border-radius: 5px;
+    border: solid;
+    border-color: #5584ac;
+    color: #5584ac;
+}
+
+#button_search{
+    padding: 1%;
+    background-color: black;
+}
+
+span.searchbutton {
+    background: url(../assets/Vector.svg) no-repeat top left;
+    background-color: black;
+    border-color: black;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}

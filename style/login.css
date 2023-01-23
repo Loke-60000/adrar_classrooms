@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(90deg, #000000 50%, #8cc04d 50%);
+    font-family: 'Inter', sans-serif;
+}
+
+#first_section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second_section{
+    width: 50%;
+    float: right;
+}
+
+#second_section #comment{
+    position: absolute;
+    width: 35%;
+    top: 5%;
+    margin-left: 10%;
+    font-size: 150%;
+    font-weight: 900;
+}
+
+#second_section #name{
+    position: absolute;
+    width: 35%;
+    top: 23%;
+    margin-left: 10%;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+h1{
+    color: #4e789d;
+    font-size: 3vh;
+}
+
+h2{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 7%;
+}
+
+label {
+    color: white;
+    font-size: 2vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#connectvia{
+    display: flex;
+    align-items: center;
+
+}
+
+#connectvia p{
+    color: white;
+    font-size: small;
+
+}
+
+#connectvia hr{
+    width: 35%;
+    height: 10%;
+}
+article img{
+    position: fixed;
+    height: 45%;
+    right: 13%;
+    bottom: 0;
+}
+
+form input{
+    width: 54.5vh;
+    height: 6vh;
+    background-color: #000000;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: white;
+}
+
+#loginbutton{
+    background-color: #5584ac;
+    border: solid;
+    border-color: #5584ac;
+    color: white;
+    height: 6vh;
+    width: 55vh;
+}
+
+
+form button{
+    width: 25vh;
+}
+
+#my-signin2{
+    margin: auto;
+}
